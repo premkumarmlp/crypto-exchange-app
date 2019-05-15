@@ -1,0 +1,29 @@
+{
+  "name": "crypto-currency-app",
+  "version": "1.0.0",
+  "description": "Crypto Currency Calculator Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Premkumar Natarajan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-and-time": "^0.6.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "joi": "^14.3.1",
+    "mongodb": "^3.2.4",
+    "mongoose": "^5.5.8",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.0.1",
+    "jest": "^24.8.0"
+  }
+}
